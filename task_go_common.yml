@@ -9,5 +9,7 @@ run:
   path: ./task_go_common.sh
   args:
 
-
+outputs:
+- name: concourse-golang-example
+  path: ./release
 
